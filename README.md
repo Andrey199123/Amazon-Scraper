@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project consists of three main components: a web scraper, a data parser, and a data analyzer. The web scraper collects product data from Amazon's bestsellers list, the parser processes and corrects data, and the analyzer compares data between different scraping sessions to identify changes in price, rating, and number of ratings, and compute averages. I have provided a few sample files that have already been collected for reference.
+This project consists of three main components: a web scraper, a data parser, and a data analyzer. The web scraper collects product data including title, price, url, review rating, and review count from Amazon's bestsellers list and saves that to a json file called products_[currentDate]. The parser processes and corrects data, and the analyzer compares data between different scraping sessions to identify changes in price, rating, and number of ratings, and computes averages. I have provided a few sample files that have already been collected for reference.
 
 ## Files
 
